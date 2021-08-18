@@ -1,5 +1,13 @@
 {
   "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@assets/icons": ["assets/icons/index.ts"],
+      "@components/ui": ["components/ui/index.ts"],
+      "@components/layout": ["components/layout/main-layout.tsx"],
+      "@config": ["config/index.ts"],
+      "@lib/*": ["lib/*"]
+    },
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,

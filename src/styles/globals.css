@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/static/fonts/inter-v3-latin-regular.eot);
+  src: url(/static/fonts/inter-v3-latin-regular.eot?#iefix)
+      format('embedded-opentype'),
+    url(/static/fonts/inter-v3-latin-regular.woff2) format('woff2'),
+    url(/static/fonts/inter-v3-latin-regular.woff) format('woff'),
+    url(/static/fonts/inter-v3-latin-regular.ttf) format('truetype'),
+    url(/static/fonts/inter-v3-latin-regular.svg#Inter) format('svg');
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Inter;
+}
